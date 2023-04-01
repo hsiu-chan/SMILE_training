@@ -14,3 +14,9 @@
 - YOLACT 模型
   - [ ] 標註
   - [ ] 訓練code
+
+## 參考資料
+yolact原文
+https://github.com/dbolya/yolact  
+yolact Keras 實現
+https://github.com/bubbliiiing/yolact-keras  
