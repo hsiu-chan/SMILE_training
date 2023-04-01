@@ -31,12 +31,12 @@ class DataGenerator(utils.Sequence):
         # iaa.Affine(scale=(0.9, 1.1), rotate=(-15, 15), random_state=seed_list[3], cval=255),
         # iaa.PiecewiseAffine(scale=(0.01, 0.05), random_state=seed_list[4], cval=255), 
         ], random_state=seed_list[-1])
-        ########################### INPUT FILE ###############################
+        ########################### INPUT FILE ######################
 
         self.mask_paths = glob(os.path.join(folder_path, '*_label.tif'))##MASK
         self.img_paths = [p.replace('_label', '') for p in self.mask_paths]##IMG
         
-        #######################################################################
+        #############################################################
         self.indexes = np.arange(len(self.mask_paths))
         self.on_epoch_end()
 
