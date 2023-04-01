@@ -7,5 +7,10 @@
 
 
 ## 任務們
-[ ] Test/TrainData
-[ ] YOLACT 模型
+- CNN舊專案重寫
+  - [x] code 重構
+  - [ ] Test/TrainData
+  - [ ] 從輪廓猜牙齒搬運
+- YOLACT 模型
+  - [ ] 標註
+  - [ ] 訓練code
